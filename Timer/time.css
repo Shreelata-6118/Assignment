@@ -1,0 +1,39 @@
+body {
+  background-image: url(flower.jpg);
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #7bc8ce;
+}
+
+.container {
+  text-align: center;
+  background: #fdfdfd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#countdown ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#countdown ul li {
+  display: inline-block;
+  font-size: 25px;
+  margin: 0 10px;
+  color: #333;
+}
+
+#countdown ul li span {
+  display: block;
+  font-size: 60px;
+}
