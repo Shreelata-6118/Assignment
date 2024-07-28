@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">My Profile</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Web Development and Creative Solutions</p>
+        </div>
+    </div>
+
+    <div class="container" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="row">
+            <div class="col-md-3 skill-card">
+                <img src="html2.jpg" alt="Skill 1" class="img-responsive">
+                <p>HTML</p>
+            </div>
+            <div class="col-md-3 skill-card">
+                <img src="css.jpg" alt="Skill 1" class="img-responsive">
+                <p>CSS</p>
+            </div>
+            <div class="col-md-3 skill-card">
+                <img src="js1.jpg" alt="Skill 1" class="img-responsive">
+                <p>JAVASCRIPT</p>
+            </div>
+            <div class="col-md-3 skill-card">
+                <img src="bs1.jpg" alt="Skill 1" class="img-responsive">
+                <p>BOOTSTRAP</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="portfolio">
+        <h2 class="section-title">MY Projects</h2>
+        <div class="row">
+            <div class="col-md-6 card">
+                <img src="calc3.jpg" alt="Calculator Project">
+                <h3>Calculator</h3>
+                <p><a href="https://github.com/Shreelata-6118/Assignment/tree/main/Calculator" target="_blank">Visit Project</a></p>
+            </div>
+            <div class="col-md-6 card">
+                <img src="chess.jpg" alt="Chessboard Project">
+                <h3>Chessboard</h3>
+                <p><a href="https://github.com/Shreelata-6118/Assignment/tree/main/chessboard" target="_blank">Visit Project</a></p>
+            </div>
+            <div class="col-md-6 card">
+                <img src="timer.jpg" alt="Time Counter Project">
+                <h3>Time Counter</h3>
+                <p><a href="https://github.com/Shreelata-6118/Assignment/tree/main/Timer" target="_blank">Visit Project</a></p>
+            </div>
+            <div class="col-md-6 card">
+                <img src="port.jpg" alt="Portfolio Project">
+                <h3>Portfolio</h3>
+                <p><a href="https://github.com/Shreelata-6118/Assignment/tree/main/portfolio" target="_blank">Visit Project</a></p>
+            </div>
+            <div class="col-md-6 card">
+                <img src="slider.jpg" alt="Slider Project">
+                <h3>Slider</h3>
+                <p><a href="https://github.com/Shreelata-6118/Assignment/tree/main/slider" target="_blank">Visit Project</a></p>
+            </div>
+            <div class="col-md-6 card">
+                <img src="web.jpg" alt="Simple Website Project">
+                <h3>Simple Website</h3>
+                <p><a href="https://github.com/Shreelata-6118/Assignment/tree/main/website" target="_blank">Visit Project</a></p>
+            </div>
+
+            <div class="col-md-6 card">
+                <img src="td.jpg" alt="Simple Website Project">
+                <h3>ToDo_list</h3>
+                <p><a href="https://github.com/Shreelata-6118/Assignment/tree/main/ToDo_list" target="_blank">Visit Project</a></p>
+            </div>
+
+            <div class="col-md-6 card">
+                <img src="github.jpg" alt="Simple Website Project">
+                <h3>Repository</h3>
+                <p><a href="https://github.com/Shreelata-6118/Assignment/tree/main/repository" target="_blank">Visit Project</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 education-card">
+                <h3>Bachelor's Degree in Computer Application</h3>
+                <p>Rani Channamma University, Belagavi</p>
+                <p>2019 - 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p>&copy; 2024 Shreelata's Portfolio</p>
+    </footer>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <script src="port.js"></script>
+</body>
+</html>
