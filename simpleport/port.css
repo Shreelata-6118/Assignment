@@ -1,4 +1,4 @@
-/* General Styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -53,8 +53,8 @@ body {
 .skill-card {
     text-align: center;
     margin: 10px;
-    flex: 0 0 22%; /* Ensure consistent size for all skill cards */
-    max-width: 150px; /* Ensure cards don't grow beyond a certain width */
+    flex: 0 0 22%; 
+    max-width: 150px;
 }
 
 .skill-card img {
@@ -72,10 +72,10 @@ body {
 }
 
 #portfolio .card {
-    flex: 0 0 30%; /* Three cards per row */
+    flex: 0 0 30%;
     margin-bottom: 20px;
-    max-width: 30%; /* Ensure three cards per row */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    max-width: 30%;
+    box-sizing: border-box; 
 }
 
 #portfolio .card img {
@@ -92,4 +92,4 @@ body {
     margin-bottom: 20px;
 }
 
-/*
+
